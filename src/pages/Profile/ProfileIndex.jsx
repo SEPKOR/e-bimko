@@ -1,0 +1,37 @@
+import { Link } from "react-router-dom";
+
+export default function ProfileIndex() {
+    return (
+        <div>
+            <div className="card card-body bg-base-100 shadow-xl">
+                <div>
+                    <h1 class="text-center font-extrabold text-3xl">PROFILE</h1>
+                </div>
+                <br />
+                <div className="avatar flex justify-center content-center">
+                    <div className="w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
+                        <img src="\src\assets\company-logo.png" />
+                    </div>
+                </div>
+                <br />
+                <div>
+                    <h1 className="text-center text-xl font-sans font-semibold">
+                        Nama
+                    </h1>
+                </div>
+            </div>
+            <br />
+            <div>
+                <Link to={'edit'}>
+                    <button className="btn btn-block">Edit</button>
+                </Link>
+            </div>
+            <br />
+            <div>
+                <Link to={'informasi'}>
+                    <button className="btn btn-block">Informasi</button>
+                </Link>
+            </div>
+        </div>
+    )
+}
