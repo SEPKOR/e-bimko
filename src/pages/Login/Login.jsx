@@ -10,7 +10,7 @@ export default function login() {
                     <figure>
                         <h1 className="text-center font-bold text-2xl">
                             <img
-                                src="src\assets\logo E-BIMKO.jpg"
+                                src="src\assets\logo_E-BIMKO.jpg"
                                 alt="LOGO"
                                 width={100}
                             />
@@ -62,11 +62,14 @@ export default function login() {
                         </div>
 
                         <div className="card-actions justify-end">
-                            <Link to={'/verifikasi/password'}>
-                                <button className="btn btn-active btn-neutral">
+                            <a href="/app">
+                                <button
+                                    type="submit"
+                                    className="btn btn-active btn-neutral"
+                                >
                                     Submit
                                 </button>
-                            </Link>{' '}
+                            </a>
                         </div>
                     </div>
                 </div>
