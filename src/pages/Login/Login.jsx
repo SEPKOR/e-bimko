@@ -55,7 +55,7 @@ export default function login() {
                                 <input
                                     type="text"
                                     className="grow"
-                                    placeholder="NISN"
+                                    placeholder="NISN/Password"
                                 />
                             </label>
                         </div>
