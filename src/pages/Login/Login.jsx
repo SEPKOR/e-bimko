@@ -1,3 +1,4 @@
+import { Link, useNavigate } from 'react-router-dom'
 export default function login() {
     return (
         <div>
@@ -59,13 +60,13 @@ export default function login() {
                                 />
                             </label>
                         </div>
-                        <a href="/app">
+                        <Link to={'/verifikasi/password'}>
                             <div className="card-actions justify-end">
                                 <button className="btn btn-active btn-neutral">
                                     Submit
                                 </button>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </body>
