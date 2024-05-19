@@ -59,7 +59,7 @@ export default function login() {
                                 />
                             </label>
                         </div>
-                        <div className="card-actions justify-start">
+                        <div className="card-actions justify-start relative inset-y-10">
                             <a href="/app">
                                 <button
                                     type="submit"
