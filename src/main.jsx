@@ -10,7 +10,6 @@ import KonsultanChoice from './pages/Konsultasi/KonsultanChoice.jsx'
 import ArtikelMenu from './pages/Artikel/ArtikelMenu.jsx'
 import DiagnosticMenu from './pages/Diagnostic/DiagnosticMenu.jsx'
 import Login from './pages/Login/Login.jsx'
-import Aunthenthication from './pages/Login/Verifikasi.jsx'
 import Verifikasi from './pages/Login/Verifikasi.jsx'
 import ArtikelMenuNo1 from './pages/Artikel/ArtikelMenuNo1.jsx'
 import ArtikelMenuNo2 from './pages/Artikel/ArtikelMenuNo2.jsx'
@@ -26,7 +25,6 @@ import Arigato from './pages/KotakSaran/arigato.jsx'
 import Developer from './pages/Developer.jsx'
 import TGB from './pages/Diagnostic/Tes2.jsx'
 import Ekstrakurikuler from './pages/Diagnostic/Tes1.jsx'
-import Passwd from './pages/Login/password.jsx'
 
 const router = createBrowserRouter([
     {
