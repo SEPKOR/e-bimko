@@ -25,6 +25,7 @@ import Arigato from './pages/KotakSaran/arigato.jsx'
 import Developer from './pages/Developer.jsx'
 import TGB from './pages/Diagnostic/Tes2.jsx'
 import Ekstrakurikuler from './pages/Diagnostic/Tes1.jsx'
+import LoginAdmin from './pages/Login/LoginAdmin.jsx'
 
 const router = createBrowserRouter([
     {
@@ -132,6 +133,10 @@ const router = createBrowserRouter([
             {
                 path: 'login',
                 element: <Login />,
+            },
+            {
+                path: 'loginadmin',
+                element: <LoginAdmin />,
             },
         ],
     },

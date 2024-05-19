@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
-export default function login() {
+export default function LoginAdmin() {
     return (
         <div>
             <body>
