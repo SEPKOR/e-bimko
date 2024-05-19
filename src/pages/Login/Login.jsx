@@ -60,13 +60,14 @@ export default function login() {
                                 />
                             </label>
                         </div>
-                        <Link to={'/verifikasi/password'}>
-                            <div className="card-actions justify-end">
+
+                        <div className="card-actions justify-end">
+                            <Link to={'/verifikasi/password'}>
                                 <button className="btn btn-active btn-neutral">
                                     Submit
                                 </button>
-                            </div>
-                        </Link>
+                            </Link>{' '}
+                        </div>
                     </div>
                 </div>
             </body>
