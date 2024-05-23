@@ -139,6 +139,10 @@ const router = createBrowserRouter([
                 path: 'loginadmin',
                 element: <LoginAdmin />,
             },
+            {
+                path: 'loginguru',
+                element: <LoginAdmin />,
+            },
         ],
     },
     {

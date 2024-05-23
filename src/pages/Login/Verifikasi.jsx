@@ -14,18 +14,18 @@ export default function Verifikasi() {
             <br />
             <ul className="flex justify-center grid-cols-2 gap-4 h-48 content-center place-content-center flex-nowrap">
                 <il>
-                    <button className="btn btn-outline btn-accent">
-                        <a href="/verifikasi/login">
+                    <Link to={'login'}>
+                        <button className="btn btn-outline btn-accent">
                             <h1>Murid</h1>
-                        </a>
-                    </button>
+                        </button>
+                    </Link>
                 </il>
                 <il>
-                    <button className="btn btn-outline btn-accent">
-                        <a href="/verifikasi/login">
+                    <Link to={'loginguru'}>
+                        <button className="btn btn-outline btn-accent">
                             <h1>Guru</h1>
-                        </a>
-                    </button>
+                        </button>
+                    </Link>
                 </il>
             </ul>
         </body>
