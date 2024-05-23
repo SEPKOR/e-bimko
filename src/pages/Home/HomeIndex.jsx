@@ -12,6 +12,7 @@ export default function HomeIndex() {
                 <h1 className="font-extrabold text-2xl relative inset-x-3">
                     SELAMAT DATANG
                 </h1>
+                <hr />
                 <br />
                 <div>
                     <div>
