@@ -27,7 +27,7 @@ export default function KonsultanChoice() {
                 </h1>
             </div>
             <br />
-            <div className='relative inset-x-2'>
+            <div className="flex relative flex-wrap gap-6 place-content-center content-center justify-center">
                 <a href="/konsultasi">
                     <button>
                         <div className="card relative card-side bg-base-200 w-11/12 h-36 shadow-xl">
