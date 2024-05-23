@@ -45,7 +45,7 @@ export default function HomeIndex() {
                             {' '}
                             <il>
                                 <Link to={'/app/kotaksaran'}>
-                                    <button className="grid relative inset-x-2 h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
+                                    <button className="relative inset-x-2 h-20 w-40 card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
                                         Kotak Saran
                                     </button>
                                 </Link>
@@ -53,7 +53,7 @@ export default function HomeIndex() {
                             <il>
                                 <Link to={'/app/developer'}>
                                     {' '}
-                                    <button className="grid h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
+                                    <button className="relative h-20 w-40 card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
                                         Developer
                                     </button>
                                 </Link>
