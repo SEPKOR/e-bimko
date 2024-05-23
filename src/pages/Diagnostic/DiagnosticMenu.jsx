@@ -29,14 +29,14 @@ export default function DiagnosticMenu() {
                 </div>
             </div>
             <br />
-            <div className="flex flex-wrap gap-3">
+            <div className="flex justify-center grid-cols-2 gap-4 h-48 content-center place-content-center flex-nowrap">
                 <Link to={'/app/diagnostic/ekstra'}>
-                    <button className="grid relative inset-x-2 h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-xl">
+                    <button className="relative inset-x-2 h-20 w-40 card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-xl">
                         Ekstrakurikuler
                     </button>
                 </Link>
                 <Link to={'/app/diagnostic/tesgayabelajar'}>
-                    <button className="grid h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral  text-xl">
+                    <button className="h-20 w-40 card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral  text-xl">
                         Tes Gaya Belajar
                     </button>
                 </Link>
