@@ -40,7 +40,7 @@ export default function HomeIndex() {
                         </div>
                     </div>
                     <br />
-                    <div className="flex flex-wrap gap-4">
+                    <div className="flex flex-wrap gap-1">
                         <ul>
                             {' '}
                             <il>
