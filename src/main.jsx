@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import HomeIndex from './pages/Home/HomeIndex.jsx'
 import ProfileIndex from './pages/Profile/ProfileIndex.jsx'
-import ProfileEdit from './pages/Profile/ProfileEdit.jsx'
 import AppLayout from './layout/AppLayout.jsx'
 import KonsultanChoice from './pages/Konsultasi/KonsultanChoice.jsx'
 import ArtikelMenu from './pages/Artikel/ArtikelMenu.jsx'
@@ -117,10 +116,6 @@ const router = createBrowserRouter([
                     {
                         path: '',
                         element: <ProfileIndex />,
-                    },
-                    {
-                        path: 'edit',
-                        element: <ProfileEdit />,
                     },
                     {
                         path: 'informasi',

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 export default function ProfileIndex() {
     return (
@@ -22,14 +22,14 @@ export default function ProfileIndex() {
             </div>
             <br />
             <div>
-                <Link to={'edit'}>
-                    <button className="btn btn-block">Edit</button>
+                <Link to={'informasi'}>
+                    <button className="btn btn-block">Informasi</button>
                 </Link>
             </div>
             <br />
             <div>
-                <Link to={'informasi'}>
-                    <button className="btn btn-block">Informasi</button>
+                <Link to={'/app/faq'}>
+                    <button className="btn btn-block">Faq</button>
                 </Link>
             </div>
         </div>
