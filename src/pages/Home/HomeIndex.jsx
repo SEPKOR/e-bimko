@@ -40,7 +40,7 @@ export default function HomeIndex() {
                         </div>
                     </div>
                     <br />
-                    <div className="flex flex-wrap gap-3">
+                    <div className="flex flex-wrap gap-4">
                         <Link to={'/app/kotaksaran'}>
                             <button className="grid relative inset-x-2 h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
                                 Kotak Saran
