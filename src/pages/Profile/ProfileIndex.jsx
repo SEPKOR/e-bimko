@@ -25,7 +25,7 @@ export default function ProfileIndex() {
                 <il>
                     <div>
                         <Link to={'informasi'}>
-                            <button className="relative w-72 max-w-96 btn btn-active bg-zinc-800">
+                            <button className="btn btn-lg btn-wide btn-active bg-zinc-800">
                                 Informasi
                             </button>
                         </Link>
