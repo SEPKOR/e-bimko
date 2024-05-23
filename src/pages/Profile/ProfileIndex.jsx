@@ -5,17 +5,17 @@ export default function ProfileIndex() {
         <div>
             <div className="card card-body bg-base-300 shadow-xl flex flex-wrap place-content-center justify-center content-center text-center">
                 <div>
-                    <h1 class="font-extrabold text-3xl">PROFILE</h1>
+                    <h1 class="text-center font-extrabold text-3xl">PROFILE</h1>
                 </div>
                 <br />
                 <div className="avatar">
-                    <div className="w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
+                    <div className="flex place-content-center justify-center content-center w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
                         <img src="\src\assets\company-logo.png" />
                     </div>
                 </div>
                 <br />
                 <div>
-                    <h1 className="text-xl font-sans font-semibold">
+                    <h1 className="flex text-center text-xl font-sans font-semibold">
                         Nama
                     </h1>
                 </div>
