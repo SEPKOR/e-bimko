@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import BottomNavigation from './partials/BottomNavigation'
 
 export default function AppLayout() {
@@ -38,7 +38,9 @@ export default function AppLayout() {
                                 <a>Portfolio</a>
                             </li>
                             <li>
-                                <a>About</a>
+                                <Link to={'/app/faq'}>
+                                    <a>About</a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -91,7 +93,7 @@ export default function AppLayout() {
                     </button>
                 </div>
             </div>
-            <hr className='rounded-lg border-t-2'/>
+            <hr className="rounded-lg border-t-2" />
             <Outlet />
 
             <BottomNavigation />
