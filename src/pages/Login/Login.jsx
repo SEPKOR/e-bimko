@@ -8,7 +8,7 @@ export default function login() {
                 <br />
                 <div className="card w-90 bg-base-100 shadow-2xl">
                     <figure>
-                        <h1 className="text-center font-bold text-2xl">
+                        <h1 className="text-center font-bold text-2xl align-middle">
                             <img
                                 src="src\assets\logo_E-BIMKO.jpg"
                                 alt="LOGO1"
