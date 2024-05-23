@@ -13,9 +13,9 @@ export default function LoginGuru() {
                             <img
                                 src="src\assets\logo_E-BIMKO.jpg"
                                 alt="LOGO"
-                                width={100}
+                                className="relative w-32"
                             />
-                            <h1 className="text-center font-bold text-2xl align-middle">
+                            <h1 className="relative -inset-x-5 inset-y-2 font-bold text-2xl align-middle">
                                 Log-in Guru
                             </h1>
                         </figure>
