@@ -16,7 +16,14 @@ export default function Verifikasi() {
                 <il>
                     <button className="btn btn-outline btn-accent">
                         <a href="/verifikasi/login">
-                            <h1>Login</h1>
+                            <h1>Murid</h1>
+                        </a>
+                    </button>
+                </il>
+                <il>
+                    <button className="btn btn-outline btn-accent">
+                        <a href="/verifikasi/login">
+                            <h1>Guru</h1>
                         </a>
                     </button>
                 </il>
