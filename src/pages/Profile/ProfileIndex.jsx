@@ -8,8 +8,8 @@ export default function ProfileIndex() {
                     <h1 class="text-center font-extrabold text-3xl">PROFILE</h1>
                 </div>
                 <br />
-                <div className="avatar">
-                    <div className="flex relative content-center w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
+                <div className="avatar flex justify-center relative content-center">
+                    <div className="w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
                         <img src="\src\assets\company-logo.png" />
                     </div>
                 </div>
