@@ -20,7 +20,7 @@ export default function ProfileIndex() {
                     </h1>
                 </div>
             </div>
-            <ul>
+            <ul className='relative gap-1'>
                 <il>
                     <div>
                         <Link to={'informasi'}>
