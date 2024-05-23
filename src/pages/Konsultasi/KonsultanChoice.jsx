@@ -30,7 +30,7 @@ export default function KonsultanChoice() {
             <div className='relative inset-x-2'>
                 <a href="/konsultasi">
                     <button>
-                        <div className="card card-side bg-base-200 w-80 h-36 shadow-xl">
+                        <div className="card relative card-side bg-base-200 w-4/5 h-36 shadow-xl">
                             <figure className="">
                                 <img
                                     src="\src\assets\company-logo.png"
