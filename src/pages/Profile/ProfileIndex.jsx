@@ -25,7 +25,7 @@ export default function ProfileIndex() {
                 <il>
                     <div>
                         <Link to={'informasi'}>
-                            <button className="relative min-w-40 max-w-96 btn btn-active bg-zinc-800">
+                            <button className="relative w-60 min-w-40 max-w-96 btn btn-active bg-zinc-800">
                                 Informasi
                             </button>
                         </Link>
@@ -34,7 +34,7 @@ export default function ProfileIndex() {
                 <il>
                     <div>
                         <Link to={'/app/faq'}>
-                            <button className="relative min-w-40 max-w-96 btn btn-active bg-zinc-800">
+                            <button className="relative w-60 min-w-40 max-w-96 btn btn-active bg-zinc-800">
                                 FAQ
                             </button>
                         </Link>
