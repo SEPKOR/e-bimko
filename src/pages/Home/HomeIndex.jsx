@@ -12,7 +12,7 @@ export default function HomeIndex() {
                 <h1 className="font-extrabold text-2xl relative inset-x-3">
                     SELAMAT DATANG
                 </h1>
-
+                <br />
                 <div>
                     <div>
                         <ul className="flex justify-center grid-cols-2 gap-4 content-center place-content-center flex-nowrap">
