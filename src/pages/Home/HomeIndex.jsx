@@ -41,17 +41,24 @@ export default function HomeIndex() {
                     </div>
                     <br />
                     <div className="flex flex-wrap gap-4">
-                        <Link to={'/app/kotaksaran'}>
-                            <button className="grid relative inset-x-2 h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
-                                Kotak Saran
-                            </button>
-                        </Link>
-                        <Link to={'/app/developer'}>
+                        <ul>
                             {' '}
-                            <button className="grid h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
-                                Developer
-                            </button>
-                        </Link>
+                            <il>
+                                <Link to={'/app/kotaksaran'}>
+                                    <button className="grid relative inset-x-2 h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
+                                        Kotak Saran
+                                    </button>
+                                </Link>
+                            </il>
+                            <il>
+                                <Link to={'/app/developer'}>
+                                    {' '}
+                                    <button className="grid h-20 w-40 flex-warp card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
+                                        Developer
+                                    </button>
+                                </Link>
+                            </il>
+                        </ul>
                     </div>
                 </div>
             </div>
