@@ -37,7 +37,9 @@ export default function AppLayout() {
                                 </Link>
                             </li>
                             <li>
-                                <a>Portfolio</a>
+                                <Link to={'/app/developer'}>
+                                    <a>Portfolio</a>
+                                </Link>
                             </li>
                             <li>
                                 <Link to={'/app/faq'}>
