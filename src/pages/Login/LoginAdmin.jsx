@@ -14,7 +14,7 @@ export default function LoginAdmin() {
                                 alt="LOGO"
                                 width={100}
                             />
-                            Log-in
+                            Log-in Admin
                         </h1>
                     </figure>
                     <div className="card-body text-center">

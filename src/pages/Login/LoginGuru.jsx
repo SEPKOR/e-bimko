@@ -15,7 +15,7 @@ export default function LoginGuru() {
                                     alt="LOGO"
                                     width={100}
                                 />
-                                Log-in
+                                Log-in Guru
                             </h1>
                         </figure>
                         <div className="card-body text-center">
