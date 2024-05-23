@@ -6,7 +6,7 @@ export default function login() {
                 <br />
                 <br />
                 <br />
-                <div className="card w-90 bg-base-100 shadow-2xl">
+                <div className="card w-96 bg-base-100 shadow-2xl">
                     <figure>
                         <img
                             src="/src/assets/logo_E-BIMKO.jpg"
