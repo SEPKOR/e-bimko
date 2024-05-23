@@ -9,7 +9,7 @@ export default function ProfileIndex() {
                 </div>
                 <br />
                 <div className="avatar">
-                    <div className="flex relative justify-center content-center w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
+                    <div className="flex relative content-center w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
                         <img src="\src\assets\company-logo.png" />
                     </div>
                 </div>
