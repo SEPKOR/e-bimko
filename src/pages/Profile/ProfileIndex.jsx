@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function ProfileIndex() {
     return (
         <div>
-            <div className="card card-body bg-base-200 shadow-xl">
+            <div className="card card-body bg-base-300 shadow-xl">
                 <div>
                     <h1 class="text-center font-extrabold text-3xl">PROFILE</h1>
                 </div>
@@ -20,7 +20,8 @@ export default function ProfileIndex() {
                     </h1>
                 </div>
             </div>
-            <ul className='flex relative grid-flow-col flex-col gap-1'>
+            <br />
+            <ul className='flex relative grid-flow-col flex-col gap-1 bg-zinc-800'>
                 <il>
                     <div>
                         <Link to={'informasi'}>
