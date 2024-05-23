@@ -26,7 +26,7 @@ import Developer from './pages/Developer.jsx'
 import TGB from './pages/Diagnostic/Tes2.jsx'
 import Ekstrakurikuler from './pages/Diagnostic/Tes1.jsx'
 import LoginAdmin from './pages/Login/LoginAdmin.jsx'
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const router = createBrowserRouter([
     {
         path: '/app',
