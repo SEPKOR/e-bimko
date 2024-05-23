@@ -27,11 +27,11 @@ export default function KonsultanChoice() {
                 </h1>
             </div>
             <br />
-            <div className="flex relative flex-wrap gap-6 place-content-center content-center justify-center">
+            <div className="flex relative flex-wrap gap-4 place-content-center content-center justify-center">
                 <div>
                     <a href="/konsultasi">
                         <button>
-                            <div className="card card-side bg-base-200 w-11/12 h-36 shadow-xl">
+                            <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
                                 <figure className="">
                                     <img
                                         src="\src\assets\company-logo.png"

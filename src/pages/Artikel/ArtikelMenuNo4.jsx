@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 export default function ArtikelMenuNo4() {
-     let navigate = useNavigate()
+    let navigate = useNavigate()
     return (
         <div>
             <div>
@@ -22,100 +22,102 @@ export default function ArtikelMenuNo4() {
                 </button>
                 <br />
             </div>
-            <div>
-                <a href="/berita">
-                    <button>
-                        <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
-                            <figure className="">
-                                <img
-                                    src="\src\assets\company-logo.png"
-                                    alt="news"
-                                    className="flex relative inset-x-1 right-1 w-28 rounded-box"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">penulis</h2>
-                                <textarea
-                                    className="textarea"
-                                    placeholder="judul/penulis"
-                                    disabled
-                                ></textarea>
+            <div className="flex relative flex-wrap gap-4 place-content-center content-center justify-center">
+                <div>
+                    <a href="/berita">
+                        <button>
+                            <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
+                                <figure className="">
+                                    <img
+                                        src="\src\assets\company-logo.png"
+                                        alt="news"
+                                        className="flex relative inset-x-1 right-1 w-28 rounded-box"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">penulis</h2>
+                                    <textarea
+                                        className="textarea"
+                                        placeholder="judul/penulis"
+                                        disabled
+                                    ></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                </a>
-            </div>
-            <br />
-            <div>
-                <a href="/berita">
-                    <button>
-                        <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
-                            <figure className="">
-                                <img
-                                    src="\src\assets\company-logo.png"
-                                    alt="news"
-                                    className="flex relative inset-x-1 right-1 w-28 rounded-box"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">penulis</h2>
-                                <textarea
-                                    className="textarea"
-                                    placeholder="judul/penulis"
-                                    disabled
-                                ></textarea>
+                        </button>
+                    </a>
+                </div>
+                <br />
+                <div>
+                    <a href="/berita">
+                        <button>
+                            <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
+                                <figure className="">
+                                    <img
+                                        src="\src\assets\company-logo.png"
+                                        alt="news"
+                                        className="flex relative inset-x-1 right-1 w-28 rounded-box"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">penulis</h2>
+                                    <textarea
+                                        className="textarea"
+                                        placeholder="judul/penulis"
+                                        disabled
+                                    ></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                </a>
-            </div>{' '}
-            <br />
-            <div>
-                <a href="/berita">
-                    <button>
-                        <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
-                            <figure className="">
-                                <img
-                                    src="\src\assets\company-logo.png"
-                                    alt="news"
-                                    className="flex relative inset-x-1 right-1 w-28 rounded-box"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">penulis</h2>
-                                <textarea
-                                    className="textarea"
-                                    placeholder="judul/penulis"
-                                    disabled
-                                ></textarea>
+                        </button>
+                    </a>
+                </div>{' '}
+                <br />
+                <div>
+                    <a href="/berita">
+                        <button>
+                            <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
+                                <figure className="">
+                                    <img
+                                        src="\src\assets\company-logo.png"
+                                        alt="news"
+                                        className="flex relative inset-x-1 right-1 w-28 rounded-box"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">penulis</h2>
+                                    <textarea
+                                        className="textarea"
+                                        placeholder="judul/penulis"
+                                        disabled
+                                    ></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                </a>
-            </div>{' '}
-            <br />
-            <div>
-                <a href="/berita">
-                    <button>
-                        <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
-                            <figure className="">
-                                <img
-                                    src="\src\assets\company-logo.png"
-                                    alt="news"
-                                    className="flex relative inset-x-1 right-1 w-28 rounded-box"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">penulis</h2>
-                                <textarea
-                                    className="textarea"
-                                    placeholder="judul/penulis"
-                                    disabled
-                                ></textarea>
+                        </button>
+                    </a>
+                </div>{' '}
+                <br />
+                <div>
+                    <a href="/berita">
+                        <button>
+                            <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
+                                <figure className="">
+                                    <img
+                                        src="\src\assets\company-logo.png"
+                                        alt="news"
+                                        className="flex relative inset-x-1 right-1 w-28 rounded-box"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">penulis</h2>
+                                    <textarea
+                                        className="textarea"
+                                        placeholder="judul/penulis"
+                                        disabled
+                                    ></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                </a>
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
     )
