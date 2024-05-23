@@ -21,7 +21,7 @@ export default function ProfileIndex() {
                 </div>
             </div>
             <br />
-            <ul className="flex relative grid-flow-col flex-col gap-1 place-content-center justify-center content-center">
+            <ul className="flex flex-wrap relative grid-flow-col flex-col gap-1 place-content-center justify-center content-center">
                 <il>
                     <div>
                         <Link to={'informasi'}>
