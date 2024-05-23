@@ -28,6 +28,7 @@ import Ekstrakurikuler from './pages/Diagnostic/Tes1.jsx'
 import LoginAdmin from './pages/Login/LoginAdmin.jsx'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import LoginGuru from './pages/Login/LoginGuru.jsx'
+import Faq from './pages/Other/Faq.jsx'
 
 const router = createBrowserRouter([
     {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
                         element: <Arigato />,
                     },
                 ],
+            },
+            {
+                path: 'faq',
+                element: <Faq />,
             },
             {
                 path: 'Artikel',
