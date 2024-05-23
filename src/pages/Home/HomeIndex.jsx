@@ -40,8 +40,8 @@ export default function HomeIndex() {
                         </div>
                     </div>
                     <br />
-                    <div className="flex flex-wrap gap-1">
-                        <ul>
+                    <div>
+                        <ul className="flex justify-center grid-cols-2 gap-4 h-48 content-center place-content-center flex-nowrap">
                             {' '}
                             <il>
                                 <Link to={'/app/kotaksaran'}>
