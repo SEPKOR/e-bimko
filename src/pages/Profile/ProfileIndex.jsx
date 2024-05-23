@@ -20,18 +20,22 @@ export default function ProfileIndex() {
                     </h1>
                 </div>
             </div>
-            <br />
-            <div>
-                <Link to={'informasi'}>
-                    <button className="btn btn-block">Informasi</button>
-                </Link>
-            </div>
-            <br />
-            <div>
-                <Link to={'/app/faq'}>
-                    <button className="btn btn-block">Faq</button>
-                </Link>
-            </div>
+            <ul>
+                <il>
+                    <div>
+                        <Link to={'informasi'}>
+                            <button className="btn btn-block">Informasi</button>
+                        </Link>
+                    </div>
+                </il>
+                <il>
+                    <div>
+                        <Link to={'/app/faq'}>
+                            <button className="btn btn-block">FAQ</button>
+                        </Link>
+                    </div>
+                </il>
+            </ul>
         </div>
     )
 }
