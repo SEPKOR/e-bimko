@@ -7,14 +7,13 @@ export default function LoginGuru() {
                     <br />
                     <br />
                     <br />
-                    <div className="card w-90 bg-base-100 shadow-2xl">
+                    <div className="card relative start-8 w-10/12 bg-base-100 shadow-2xl">
                         <figure>
                             {' '}
                             <img
                                 src="src\assets\logo_E-BIMKO.jpg"
                                 alt="LOGO"
                                 width={100}
-                              
                             />
                             <h1 className="text-center font-bold text-2xl align-middle">
                                 Log-in Guru
