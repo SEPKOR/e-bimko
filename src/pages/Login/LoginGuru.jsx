@@ -17,8 +17,6 @@ export default function LoginGuru() {
                             />
                             <h1 className="text-center font-bold text-2xl align-middle">
                                 Log-in
-                            </h1>
-                            <h1 className="text-center font-bold align-middle">
                                 Guru
                             </h1>
                         </figure>
