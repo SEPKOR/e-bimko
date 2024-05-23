@@ -22,6 +22,10 @@ export default function ArtikelMenuNo2() {
                 </button>
                 <br />
             </div>
+            <h1 className="flex font-extrabold text-2xl text-center justify-center">
+                TIPS AND TRICK
+            </h1>
+            <br />
             <div className="flex relative flex-wrap gap-4 place-content-center content-center justify-center">
                 <div>
                     <a href="/berita">

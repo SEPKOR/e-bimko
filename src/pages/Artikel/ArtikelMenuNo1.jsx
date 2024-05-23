@@ -45,6 +45,9 @@ export default function ArtikelMenuNo1() {
                     </button>
                 </a>
             </div>
+            <h1 className="flex font-extrabold text-2xl text-center justify-center">
+                KESEHATAN
+            </h1>
             <br />
             <div className="flex relative flex-wrap gap-4 place-content-center content-center justify-center">
                 <div>
