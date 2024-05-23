@@ -23,7 +23,7 @@ export default function ProfileIndex() {
             <br />
             <ul className="flex flex-wrap relative grid-flow-col flex-col gap-1 place-content-center justify-center content-center">
                 <il>
-                    <div className="relative w-3/4">
+                    <div className="relative min-w-40">
                         <Link to={'informasi'}>
                             <button className="btn btn-active bg-zinc-800">
                                 Informasi
@@ -32,7 +32,7 @@ export default function ProfileIndex() {
                     </div>
                 </il>
                 <il>
-                    <div className="relative w-3/4">
+                    <div className="relative min-w-40">
                         <Link to={'/app/faq'}>
                             <button className="btn btn-active bg-zinc-800">
                                 FAQ
