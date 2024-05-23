@@ -41,11 +41,11 @@ export default function HomeIndex() {
                     </div>
                     <br />
                     <div>
-                        <ul className="flex justify-center grid-cols-2 gap-4 h-48 content-center place-content-center flex-nowrap">
+                        <ul className="flex justify-center grid-cols-2 gap-4 content-center place-content-center flex-nowrap">
                             {' '}
                             <il>
                                 <Link to={'/app/kotaksaran'}>
-                                    <button className="relative inset-x-2 h-20 w-40 card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
+                                    <button className="relative inset-x-1 h-20 w-40 card bg-base-300 rounded-box place-items-center btn btn-active btn-neutral text-slate-500 font-semibold text-xl">
                                         Kotak Saran
                                     </button>
                                 </Link>
