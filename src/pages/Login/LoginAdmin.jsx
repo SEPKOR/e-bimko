@@ -12,7 +12,6 @@ export default function LoginAdmin() {
                             src="src\assets\logo_E-BIMKO.jpg"
                             alt="LOGO"
                             width={100}
-                            className="object-center h-auto m-auto z-auto flex justify-center content-center place-content-center"
                         />
                         <h1 className="text-center font-bold text-2xl align-middle">
                             Log-in Admin
