@@ -21,18 +21,22 @@ export default function ProfileIndex() {
                 </div>
             </div>
             <br />
-            <ul className='flex relative grid-flow-col flex-col gap-1 bg-zinc-800'>
+            <ul className="flex relative grid-flow-col flex-col gap-1 bg-zinc-800">
                 <il>
                     <div>
                         <Link to={'informasi'}>
-                            <button className="btn btn-block box-border">Informasi</button>
+                            <button className="btn btn-active relative w-40">
+                                Informasi
+                            </button>
                         </Link>
                     </div>
                 </il>
                 <il>
                     <div>
                         <Link to={'/app/faq'}>
-                            <button className="btn btn-block">FAQ</button>
+                            <button className="btn btn-active relative w-40">
+                                FAQ
+                            </button>
                         </Link>
                     </div>
                 </il>
