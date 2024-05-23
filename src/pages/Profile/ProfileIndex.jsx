@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom'
 export default function ProfileIndex() {
     return (
         <div>
-            <div className="card card-body bg-base-300 shadow-xl">
+            <div className="card card-body bg-base-300 shadow-xl flex flex-wrap place-content-center justify-center content-center text-center">
                 <div>
-                    <h1 class="text-center font-extrabold text-3xl">PROFILE</h1>
+                    <h1 class="font-extrabold text-3xl">PROFILE</h1>
                 </div>
                 <br />
-                <div className="avatar flex justify-center content-center">
+                <div className="avatar">
                     <div className="w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
                         <img src="\src\assets\company-logo.png" />
                     </div>
                 </div>
                 <br />
                 <div>
-                    <h1 className="text-center text-xl font-sans font-semibold">
+                    <h1 className="text-xl font-sans font-semibold">
                         Nama
                     </h1>
                 </div>
