@@ -95,7 +95,7 @@ export default function login() {
                             <p>
                                 ACP Team
                                 <br />
-                                Stay Solo
+                                User
                             </p>
                         </button>
                     </Link>
