@@ -9,14 +9,14 @@ export default function ProfileIndex() {
                 </div>
                 <br />
                 <div className="avatar">
-                    <div className="flex place-content-center justify-center content-center w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
+                    <div className="place-content-center justify-center content-center w-24 rounded-full ring ring-neutral-600 ring-offset-base-300">
                         <img src="\src\assets\company-logo.png" />
                     </div>
                 </div>
                 <br />
                 <div>
-                    <h1 className="flex text-center text-xl font-sans font-semibold">
-                        Nama
+                    <h1 className="text-center text-xl font-sans font-semibold">
+                        Developer
                     </h1>
                 </div>
             </div>
