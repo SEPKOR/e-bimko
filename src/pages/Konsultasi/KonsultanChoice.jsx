@@ -28,103 +28,105 @@ export default function KonsultanChoice() {
             </div>
             <br />
             <div className="flex relative flex-wrap gap-6 place-content-center content-center justify-center">
-                <a href="/konsultasi">
-                    <button>
-                        <div className="card card-side bg-base-200 w-11/12 h-36 shadow-xl">
-                            <figure className="">
-                                <img
-                                    src="\src\assets\company-logo.png"
-                                    alt="news"
-                                    className="flex relative inset-x-1 right-1 w-28 rounded-box"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Nama</h2>
-                                <h6>Guru BK / Mapel</h6>
-                                <textarea
-                                    className="textarea"
-                                    placeholder="Deskripsi"
-                                    disabled
-                                ></textarea>
+                <div>
+                    <a href="/konsultasi">
+                        <button>
+                            <div className="card card-side bg-base-200 w-11/12 h-36 shadow-xl">
+                                <figure className="">
+                                    <img
+                                        src="\src\assets\company-logo.png"
+                                        alt="news"
+                                        className="flex relative inset-x-1 right-1 w-28 rounded-box"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Nama</h2>
+                                    <h6>Guru BK / Mapel</h6>
+                                    <textarea
+                                        className="textarea"
+                                        placeholder="Deskripsi"
+                                        disabled
+                                    ></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                </a>
-            </div>
-            <br />
-            <div>
-                <a href="/konsultasi">
-                    <button>
-                        <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
-                            <figure className="">
-                                <img
-                                    src="\src\assets\company-logo.png"
-                                    alt="news"
-                                    className="flex relative inset-x-1 right-1 w-28 rounded-box"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Nama</h2>
-                                <h6>Guru BK / Mapel</h6>
-                                <textarea
-                                    className="textarea"
-                                    placeholder="Deskripsi"
-                                    disabled
-                                ></textarea>
+                        </button>
+                    </a>
+                </div>
+                <br />
+                <div>
+                    <a href="/konsultasi">
+                        <button>
+                            <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
+                                <figure className="">
+                                    <img
+                                        src="\src\assets\company-logo.png"
+                                        alt="news"
+                                        className="flex relative inset-x-1 right-1 w-28 rounded-box"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Nama</h2>
+                                    <h6>Guru BK / Mapel</h6>
+                                    <textarea
+                                        className="textarea"
+                                        placeholder="Deskripsi"
+                                        disabled
+                                    ></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                </a>
-            </div>{' '}
-            <br />
-            <div>
-                <a href="/konsultasi">
-                    <button>
-                        <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
-                            <figure className="">
-                                <img
-                                    src="\src\assets\company-logo.png"
-                                    alt="news"
-                                    className="flex relative inset-x-1 right-1 w-28 rounded-box"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Nama</h2>
-                                <h6>Guru BK / Mapel</h6>
-                                <textarea
-                                    className="textarea"
-                                    placeholder="Deskripsi"
-                                    disabled
-                                ></textarea>
+                        </button>
+                    </a>
+                </div>{' '}
+                <br />
+                <div>
+                    <a href="/konsultasi">
+                        <button>
+                            <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
+                                <figure className="">
+                                    <img
+                                        src="\src\assets\company-logo.png"
+                                        alt="news"
+                                        className="flex relative inset-x-1 right-1 w-28 rounded-box"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Nama</h2>
+                                    <h6>Guru BK / Mapel</h6>
+                                    <textarea
+                                        className="textarea"
+                                        placeholder="Deskripsi"
+                                        disabled
+                                    ></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                </a>
-            </div>{' '}
-            <br />
-            <div>
-                <a href="/konsultasi">
-                    <button>
-                        <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
-                            <figure className="">
-                                <img
-                                    src="\src\assets\company-logo.png"
-                                    alt="news"
-                                    className="flex relative inset-x-1 right-1 w-28 rounded-box"
-                                />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Nama</h2>
-                                <h6>Guru BK / Mapel</h6>
-                                <textarea
-                                    className="textarea"
-                                    placeholder="Deskripsi"
-                                    disabled
-                                ></textarea>
+                        </button>
+                    </a>
+                </div>{' '}
+                <br />
+                <div>
+                    <a href="/konsultasi">
+                        <button>
+                            <div className="card card-side bg-base-200 w-96 h-36 shadow-xl">
+                                <figure className="">
+                                    <img
+                                        src="\src\assets\company-logo.png"
+                                        alt="news"
+                                        className="flex relative inset-x-1 right-1 w-28 rounded-box"
+                                    />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title">Nama</h2>
+                                    <h6>Guru BK / Mapel</h6>
+                                    <textarea
+                                        className="textarea"
+                                        placeholder="Deskripsi"
+                                        disabled
+                                    ></textarea>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                </a>
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
     )
